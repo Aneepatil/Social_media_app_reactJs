@@ -1,0 +1,83 @@
+.register {
+    height: 100vh;
+    background-color: rgb(23, 23, 36);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card {
+        display: flex;
+        width: 50%;
+        flex-direction: row-reverse;
+        border-radius: 10px;
+        min-height: 550px;
+        overflow: hidden;
+        .left {
+            flex: 1;
+            padding: 50px;
+            background:linear-gradient(rgba(24, 11, 47, 0.5),rgba(38, 57, 82, 0.711)), url('https://images.pexels.com/photos/3184435/pexels-photo-3184435.jpeg?auto=compress&cs=tinysrgb&w=600');
+            background-position: center;
+            background-size: cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            h1 {
+                font-size: 6rem;
+                line-height: 90px;
+            }
+
+            p {
+
+            }
+
+            span {
+                font-size:0.8rem;
+            }
+
+            button {
+                width: 50%;
+                padding: 10px;
+                background-color: white;
+                border: none;
+                color: black;
+                font-weight: 600;
+                cursor: pointer;
+            }
+        }
+
+        .right {
+            flex: 1;
+            padding: 50px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px;
+            h1 {
+                // font-size: 4rem;
+                color: rgb(137, 100, 100);
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                input {
+                    border: none;
+                    border-bottom: 1px solid black;
+                    padding: 15px 10px;
+                }
+
+                button {
+                    width: 50%;
+                    border: none;
+                    padding: 10px;
+                    background-color: rgba(126, 118, 242, 0.826);
+                    color: black;
+                    font-weight: 700;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
